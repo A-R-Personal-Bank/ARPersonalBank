@@ -5,13 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-
-@Component({
-  selector: 'app-login',
-  templateUrl: './login.html',
-  styleUrls: ['./app.component.css']
-})
 export class AppComponent {
   title = 'A&R Personal Bank';
-  myimage:string = "assets/Bank Image Logo.png";
 }
