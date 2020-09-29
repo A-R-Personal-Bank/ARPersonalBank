@@ -145,6 +145,24 @@
   <div class="spacer"></div>
 </div>
 
+<div class="content" role="main">
+
+  <div class="card highlight-card card-small" >
+    <img [src]="myimage" alt="" width = "150px" style="margin-left: -16px;"/> 
+
+    <span>
+      <H2> A&R Personal Bank Sign Up
+      </H2></span>
+  </div>
+
+  <!-- Resources -->
+  <h2>Sign Up</h2>
+   <p>Sign Up to your account by filling below details.</p>
+
+  <div class="card-container">
+  </div>
+</div>
+
 <div class="card-container" fxLayoutAlign="center center" fxFlexfill>
   <mat-card style="top: 100px;" fxFlex="50">
     <form class="SignupForm" fxLayoutAlign="center center" fxLayout="column">
@@ -159,7 +177,6 @@
           <mat-form-field>
             <input matInput placeholder="Last Name">
           </mat-form-field>
-
 
           <mat-form-field>
             <input matInput placeholder="Email Id">
@@ -189,11 +206,7 @@
             <input matInput placeholder="Confirm Password">
           </mat-form-field>
 
-          <mat-form-field>
-            <input matInput placeholder="First Name">
-          </mat-form-field>
- 
-    <button mat-raised-button type="submit" routerLink="signup" color="warn">Sign Up</button>
+     <button mat-raised-button type="submit" routerLink="signup" color="warn">Sign Up</button>
     </form>
   </mat-card>
 </div>

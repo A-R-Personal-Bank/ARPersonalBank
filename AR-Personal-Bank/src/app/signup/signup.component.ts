@@ -11,5 +11,5 @@ export class SignupComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+myimage:string = "assets/Bank Image Logo.png";
 }
